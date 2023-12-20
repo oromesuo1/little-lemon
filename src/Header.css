@@ -1,0 +1,76 @@
+/* Logo 1 */
+.logo{
+    display: inline-block;
+    width: 200px;
+    height: 80px;
+}
+
+.basket{
+width: 200px;
+height: 80px;
+}
+
+
+
+
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-top: 10px;
+   
+}
+
+
+
+/* Nav section styles begins*/
+nav{
+    display: inline-block;
+    background-color: aliceblue;
+
+}
+
+nav ul{
+    list-style: none;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 30px;
+    font-family: 'Karla';
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 23px;
+    font-style: normal;
+}
+li a{
+    display: block;
+    text-align: center;
+    padding: 1rem 1.05rem;
+    text-decoration: none;
+}
+li a:link{
+    color: green;
+    background-color: rgb(233, 229, 229);
+
+}
+
+li a:hover{
+    color: white;
+    background-color: gray;
+    border-radius: 4px;
+}
+li a:visited{
+    color: rgb(10, 107, 199);
+    background-color: transparent;
+
+}
+li a:active{
+    color: yellow;
+    background-color: transparent;
+}
+/* Nav section styles end */
